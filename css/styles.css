@@ -1,0 +1,91 @@
+/* ---------------- BASE ---------------- */
+body {
+  background-image: url("../assets/Backgrounds/fondoGalaxia.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.whiteTitle {
+  color: #fff;
+}
+
+/* ---------------- LAYOUT ---------------- */
+.weather-app__header {
+  background-color: rgba(15, 52, 96, 0.85);
+  padding: 1rem 0;
+}
+
+.weather-app__header .navbar-brand {
+  font-weight: bold;
+  color: #fff;
+}
+
+.weather-app__footer {
+  background-color: rgba(15, 52, 96, 0.85);
+  text-align: center;
+  padding: 1rem;
+}
+
+.weather-app__content {
+  padding: 1rem;
+}
+
+/* ---------------- PLACE CARD ---------------- */
+.place-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  background-color: rgba(22, 36, 71, 0.85);
+  border: 1px solid #1f4068;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #fff;
+}
+
+.place-card__name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.place-card__temp {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.place-card__icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Colores por clima */
+.place-card--sunny {
+  border-color: #f7d354;
+}
+
+.place-card--rainy {
+  border-color: #4a90e2;
+}
+
+.place-card--cloudy {
+  border-color: #9bb0c7;
+}
+
+.place-card--snowy {
+  border-color: #aee1f9;
+}
+
+.place-card--windy {
+  border-color: #b0e0e6;
+}
+
+/* Hover profesional con glow */
+.place-card:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.3);
+}
