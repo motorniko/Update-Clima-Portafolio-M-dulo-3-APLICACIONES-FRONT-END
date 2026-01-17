@@ -29,12 +29,6 @@ Desarrollado con **HTML5 semántico, Bootstrap 5, CSS/SASS y JavaScript**.
 
 > Nota: Se puede usar SASS modularizado y compilar a `styles.css`. Variables, anidamiento y mixins aplicados para mantener consistencia de estilos.
 
----
-
-> Nota: Se puede usar SASS modularizado y compilar a `styles.css`. Variables, anidamiento y mixins aplicados para mantener consistencia de estilos.
-
----
-
 ## Cómo ejecutar
 
 1. Clona el repositorio:
