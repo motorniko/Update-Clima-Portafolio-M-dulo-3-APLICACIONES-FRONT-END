@@ -33,7 +33,6 @@ Desarrollado con **HTML5 semántico, Bootstrap 5, CSS/SASS y JavaScript**.
 
 1. Clona el repositorio:
 
-bash
 git clone https://github.com/motorniko/Update-Clima-Portafolio-M-dulo-3-APLICACIONES-FRONT-END.git
 
 1. Abre index.html en tu navegador.
