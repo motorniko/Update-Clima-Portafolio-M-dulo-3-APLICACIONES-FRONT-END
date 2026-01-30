@@ -1,7 +1,5 @@
-// ---------------- ESTADOS ----------------
-const estados = ["☀️", "☁️", "🌧️", "⛈️", "❄️", "🌬️"];
 
-// ---------------- CIUDADES ----------------
+const estados = ["☀️", "☁️", "🌧️", "⛈️", "❄️", "🌬️"];
 const ciudades = [
   { nombre: "Rocket-racoon", temp: 22, estado: "Soleado", icono: "☀️", clima: "sunny" },
   { nombre: "Xandar", temp: -2, estado: "Nevado", icono: "❄️", clima: "snowy" },
@@ -17,7 +15,7 @@ const ciudades = [
   { nombre: "Motorniko-Galaxy", temp: 32, estado: "Nevado", icono: "❄️", clima: "snowy" }
 ];
 
-// ---------------- FUNCIONES ----------------
+
 function renderHome() {
   const container = document.getElementById("cards-container");
   if (!container) return;
@@ -91,6 +89,5 @@ function renderDetalle() {
   });
 }
 
-// ---------------- INICIALIZACIÓN ----------------
 if (document.getElementById("cards-container")) renderHome();
 if (document.getElementById("city-title")) renderDetalle();
