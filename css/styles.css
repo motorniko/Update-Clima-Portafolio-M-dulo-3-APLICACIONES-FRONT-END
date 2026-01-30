@@ -1,4 +1,3 @@
-/* ---------------- BASE ---------------- */
 body {
   background-image: url("../assets/Backgrounds/fondoGalaxia.jpg");
   background-size: cover;
@@ -15,7 +14,6 @@ body {
   color: #fff;
 }
 
-/* ---------------- LAYOUT ---------------- */
 .weather-app__header {
   background-color: rgba(15, 52, 96, 0.85);
   padding: 1rem 0;
@@ -36,7 +34,6 @@ body {
   padding: 1rem;
 }
 
-/* ---------------- PLACE CARD ---------------- */
 .place-card {
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -84,7 +81,6 @@ body {
   border-color: #b0e0e6;
 }
 
-/* Hover profesional con glow */
 .place-card:hover {
   transform: scale(1.05) translateY(-5px);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.3);
